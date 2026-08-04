@@ -1,3 +1,2 @@
-for(int i=0;i<=10;i++){
-        cout<<decimalToBinary(i)<<endl;
-    }
+#include <iostream>
+using namespace std;
