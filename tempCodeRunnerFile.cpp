@@ -1,2 +1,5 @@
-#include <iostream>
-using namespace std;
+   // cout<<vec[0]<<endl;
+    // cout<<vec[1]<<endl;
+    // cout<<vec[2]<<endl;
+    // cout<<vec[3]<<endl;
+    // cout<<vec[4]<<endl;
