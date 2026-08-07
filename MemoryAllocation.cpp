@@ -13,7 +13,7 @@ int main(){
   
 
     cout<<vec.size()<<endl;
-    cout<<vec.capacity()<<endl; // capacity is multiple of 2
+    cout<<vec.capacity()<<endl; // capacity is multiple of 2re
 
     return 0;
 }
