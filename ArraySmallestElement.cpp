@@ -20,6 +20,7 @@ int main()
             smallestIndex = i;
         }
     }
+    
     cout << "Smallest is " << smallest << endl;
     cout << "Index of smallest element is " << smallestIndex << endl;
 
