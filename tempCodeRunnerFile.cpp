@@ -1,4 +1,6 @@
- // for (int j = 0; j < n; j++)
-        // {
-        //     cout << " ";
-        // }
+#include <iostream>
+using namespace std;
+
+void f(int i,int n){
+    if(i<1){
+        return;
