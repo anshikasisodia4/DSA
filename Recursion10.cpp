@@ -2,13 +2,13 @@
 #include <string>
 using namespace std;
 
-int palindrome(string s, int i, int n)
+bool palindrome(string s, int i, int n)
 {
     if (i >= n / 2)
     {
         return true;
     }
-    if (s[i] != s[i - n - 1])
+    if (s[i] != s[n])
     {
         return false;
     }
