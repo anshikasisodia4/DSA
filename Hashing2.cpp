@@ -11,6 +11,7 @@ int main(){
     //int hash[256]={0}  : to hash all the characters
     for(int i=0;i<s.size();i++){
         hash[s[i]-'a']++;
+        // hash[s[i]]++
     }
 
     int q;
