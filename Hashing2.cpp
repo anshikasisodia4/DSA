@@ -2,6 +2,7 @@
 using namespace std;
 
 int main(){
+             // character hashing
     string s ;
     cin>>s;
 
