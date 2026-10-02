@@ -9,7 +9,7 @@ int main()
 
     // precompute
     int hash[26] = {0};
-    
+
     // int hash[256]={0}  : to hash all the characters
     for (int i = 0; i < s.size(); i++)
     {
@@ -25,6 +25,7 @@ int main()
         cin >> c;
         // fetch
         cout << hash[c - 'a'] << endl;
+        // cout<<hash[c]<<endl;
     }
 
     return 0;
