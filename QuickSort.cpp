@@ -3,6 +3,6 @@
 using namespace std;
 
 int main(){
-    vector <int> arr;
+    vec
     return 0;
 }
