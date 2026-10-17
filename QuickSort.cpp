@@ -1,8 +1,8 @@
 #include <iostream>
-#include<vector>
+#include <vector>
 using namespace std;
 
-int main(){
-    vec
-    return 0;
+int main()
+{
+    vector<int> return 0;
 }
