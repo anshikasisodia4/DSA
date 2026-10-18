@@ -4,5 +4,10 @@ using namespace std;
 
 int main()
 {
-    vector<int> return 0;
+    vector<int> arr;
+   
+  
+
+    
+    return 0;
 }
