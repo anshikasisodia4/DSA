@@ -7,7 +7,6 @@ int main()
 {
     int n = 5;
     int arr[] = {1, -2, 3, 4, 5};
-
     int currSum = 0;
     int maxSum = INT_MIN;
 
