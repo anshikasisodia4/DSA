@@ -1,12 +1,10 @@
 #include <iostream>
 #include <vector>
-#include <utility>
 using namespace std;
 
 int partition(vector<int>& arr, int low, int high) {
     int pivot = arr[high];
     int i = low - 1;
-
     for (int j = low; j < high; j++) {
         if (arr[j] <= pivot) {
             i++;
@@ -26,11 +24,22 @@ void quickSort(vector<int>& arr, int low, int high) {
 }
 
 int main() {
-    vector<int> arr = {10, 7, 8, 9, 1, 5};
+    int n;
+    cout << "Enter number of elements: ";
+    cin >> n;
 
-    quickSort(arr, 0, arr.size() - 1);
+    vector<int> arr(n);
+    cout << "Enter " << n << " elements: ";
+    for (int i = 0; i < n; i++) {
+        cin >> arr[i];
+    }
 
-    for (int x : arr) cout << x << " ";
-    cout << endl;   // 1 5 7 8 9 10
+    quickSort(arr, 0, n - 1);
+
+    cout << "Sorted array: ";
+    for (int x : arr) {
+        cout << x << " ";
+    }
+    cout << endl;
     return 0;
 }
