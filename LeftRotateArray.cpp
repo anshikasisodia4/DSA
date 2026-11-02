@@ -8,6 +8,7 @@ int main()
     int n;
     cout << "Enter the size of array : ";
     cin >> n;
+    
     vector<int> arr(n);
     cout << "Enter array : ";
     for (int i = 0; i < n; i++)
