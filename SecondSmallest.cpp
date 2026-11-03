@@ -27,6 +27,7 @@ int main()
     int n;
     cout<<"Enter size of array : ";
     cin >> n;
+    
     vector<int> arr(n);
     cout<<"Enter elements of array : ";
     for (int i = 0; i < n; i++)
